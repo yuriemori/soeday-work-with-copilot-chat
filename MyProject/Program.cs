@@ -37,7 +37,7 @@ namespace MyProject
             string position = Console.ReadLine();        
 
             // Emailのバリデーション
-            if (IsEmailValid(email))
+            if (!IsEmailValid(email))
             {
                 Console.WriteLine("無効なメールアドレスです。");
                 return;
@@ -65,6 +65,7 @@ namespace MyProject
 
         }
 
+        //適切なメアドだったらtrueを返す
         public static bool IsEmailValid(string email)
         {
             // emailがNullの場合はfalseを返す
@@ -92,7 +93,7 @@ namespace MyProject
 
             foreach (char c in email)
             {
-                // バグ: 意図的に境界値チェックをクリアできないようにする
+                // バグ: 最初の文字と最後の文字がチェックから漏れる
                 if (c > start && c < end)
                 {
                     return true;
