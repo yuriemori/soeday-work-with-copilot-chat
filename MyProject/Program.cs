@@ -80,7 +80,8 @@ namespace MyProject
 
             // 正規表現を使用してメールアドレスの形式をチェック
             var regex = new Regex(@"^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$");
-            return regex.IsMatch(email);            
+            // バグ：気付くかどうか微妙な意図的な条件判定ミス
+            return !regex.IsMatch(email);            
         }
 
         private static bool ContainsFullWidthCharacters(string email)
@@ -120,7 +121,7 @@ namespace MyProject
 
         public static DataTable ToDataTable<T>(List<T> items)
         {
-            DataTable dataTable = new(typeof(T).Name);
+            var dataTable = new DataTable(typeof(T).Name);
 
             // プロパティの取得
             PropertyInfo[] props = typeof(T).GetProperties(BindingFlags.Public | BindingFlags.Instance);
