@@ -144,7 +144,7 @@ namespace MyProject
                 // バグ：意図的な境界値チェックミス
                 if (dataTable.Rows.Count > 10)
                 {
-                    Console.WriteLine("10件以上のデータの登録はできません。");
+                    Console.WriteLine("登録できるデータは10件までです");
                     return dataTable;
                 }
 
