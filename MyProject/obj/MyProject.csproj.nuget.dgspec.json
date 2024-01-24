@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yurie.mori\\Documents\\code\\SOEDAY\\UnitTestPractice\\MyProject\\MyProject.csproj": {}
+    "c:\\Users\\yurie.mori\\Documents\\code\\SOEDAY\\UnitTestPractice\\MyProject\\MyProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yurie.mori\\Documents\\code\\SOEDAY\\UnitTestPractice\\MyProject\\MyProject.csproj": {
+    "c:\\Users\\yurie.mori\\Documents\\code\\SOEDAY\\UnitTestPractice\\MyProject\\MyProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yurie.mori\\Documents\\code\\SOEDAY\\UnitTestPractice\\MyProject\\MyProject.csproj",
+        "projectUniqueName": "c:\\Users\\yurie.mori\\Documents\\code\\SOEDAY\\UnitTestPractice\\MyProject\\MyProject.csproj",
         "projectName": "MyProject",
-        "projectPath": "C:\\Users\\yurie.mori\\Documents\\code\\SOEDAY\\UnitTestPractice\\MyProject\\MyProject.csproj",
+        "projectPath": "c:\\Users\\yurie.mori\\Documents\\code\\SOEDAY\\UnitTestPractice\\MyProject\\MyProject.csproj",
         "packagesPath": "C:\\Users\\yurie.mori\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yurie.mori\\Documents\\code\\SOEDAY\\UnitTestPractice\\MyProject\\obj\\",
+        "outputPath": "c:\\Users\\yurie.mori\\Documents\\code\\SOEDAY\\UnitTestPractice\\MyProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yurie.mori\\AppData\\Roaming\\NuGet\\NuGet.Config"
