@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
+    "net8.0": {
       "Microsoft.NETCore.Platforms/3.1.0": {
         "type": "package",
         "compile": {
@@ -465,7 +465,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net7.0": [
+    "net8.0": [
       "System.Data.SqlClient >= 4.8.2"
     ]
   },
@@ -475,24 +475,24 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yurie.mori\\Documents\\code\\SOEDAY\\UnitTestPractice\\MyProject\\MyProject.csproj",
+      "projectUniqueName": "c:\\code\\CopilotDemo\\soeday-work-with-copilot-chat\\MyProject\\MyProject.csproj",
       "projectName": "MyProject",
-      "projectPath": "C:\\Users\\yurie.mori\\Documents\\code\\SOEDAY\\UnitTestPractice\\MyProject\\MyProject.csproj",
+      "projectPath": "c:\\code\\CopilotDemo\\soeday-work-with-copilot-chat\\MyProject\\MyProject.csproj",
       "packagesPath": "C:\\Users\\yurie.mori\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yurie.mori\\Documents\\code\\SOEDAY\\UnitTestPractice\\MyProject\\obj\\",
+      "outputPath": "c:\\code\\CopilotDemo\\soeday-work-with-copilot-chat\\MyProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yurie.mori\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net8.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {}
         }
       },
@@ -500,11 +500,16 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "dependencies": {
           "System.Data.SqlClient": {
             "target": "Package",
@@ -527,8 +532,30 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Data.SqlClient' 4.8.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-8g2p-5pqh-5jmc",
+      "libraryId": "System.Data.SqlClient",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Data.SqlClient' 4.8.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
+      "libraryId": "System.Data.SqlClient",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

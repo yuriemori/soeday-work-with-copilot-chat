@@ -1,33 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\yurie.mori\\Documents\\code\\SOEDAY\\UnitTestPractice\\MyProject.Tests\\MyApp.Tests.csproj": {}
+    "c:\\code\\CopilotDemo\\soeday-work-with-copilot-chat\\MyProject.Tests\\MyApp.Tests.csproj": {}
   },
   "projects": {
-    "c:\\Users\\yurie.mori\\Documents\\code\\SOEDAY\\UnitTestPractice\\MyProject.Tests\\MyApp.Tests.csproj": {
+    "c:\\code\\CopilotDemo\\soeday-work-with-copilot-chat\\MyProject.Tests\\MyApp.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\yurie.mori\\Documents\\code\\SOEDAY\\UnitTestPractice\\MyProject.Tests\\MyApp.Tests.csproj",
+        "projectUniqueName": "c:\\code\\CopilotDemo\\soeday-work-with-copilot-chat\\MyProject.Tests\\MyApp.Tests.csproj",
         "projectName": "MyApp.Tests",
-        "projectPath": "c:\\Users\\yurie.mori\\Documents\\code\\SOEDAY\\UnitTestPractice\\MyProject.Tests\\MyApp.Tests.csproj",
+        "projectPath": "c:\\code\\CopilotDemo\\soeday-work-with-copilot-chat\\MyProject.Tests\\MyApp.Tests.csproj",
         "packagesPath": "C:\\Users\\yurie.mori\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\yurie.mori\\Documents\\code\\SOEDAY\\UnitTestPractice\\MyProject.Tests\\obj\\",
+        "outputPath": "c:\\code\\CopilotDemo\\soeday-work-with-copilot-chat\\MyProject.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yurie.mori\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\Users\\yurie.mori\\Documents\\code\\SOEDAY\\UnitTestPractice\\MyProject\\MyProject.csproj": {
-                "projectPath": "c:\\Users\\yurie.mori\\Documents\\code\\SOEDAY\\UnitTestPractice\\MyProject\\MyProject.csproj"
+              "c:\\code\\CopilotDemo\\soeday-work-with-copilot-chat\\MyProject\\MyProject.csproj": {
+                "projectPath": "c:\\code\\CopilotDemo\\soeday-work-with-copilot-chat\\MyProject\\MyProject.csproj"
               }
             }
           }
@@ -36,11 +36,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "MSTest.TestAdapter": {
               "target": "Package",
@@ -75,31 +80,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\yurie.mori\\Documents\\code\\SOEDAY\\UnitTestPractice\\MyProject\\MyProject.csproj": {
+    "c:\\code\\CopilotDemo\\soeday-work-with-copilot-chat\\MyProject\\MyProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\yurie.mori\\Documents\\code\\SOEDAY\\UnitTestPractice\\MyProject\\MyProject.csproj",
+        "projectUniqueName": "c:\\code\\CopilotDemo\\soeday-work-with-copilot-chat\\MyProject\\MyProject.csproj",
         "projectName": "MyProject",
-        "projectPath": "c:\\Users\\yurie.mori\\Documents\\code\\SOEDAY\\UnitTestPractice\\MyProject\\MyProject.csproj",
+        "projectPath": "c:\\code\\CopilotDemo\\soeday-work-with-copilot-chat\\MyProject\\MyProject.csproj",
         "packagesPath": "C:\\Users\\yurie.mori\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\yurie.mori\\Documents\\code\\SOEDAY\\UnitTestPractice\\MyProject\\obj\\",
+        "outputPath": "c:\\code\\CopilotDemo\\soeday-work-with-copilot-chat\\MyProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yurie.mori\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -107,11 +112,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "System.Data.SqlClient": {
               "target": "Package",
@@ -134,7 +144,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

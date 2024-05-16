@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mwTrKUv5mD7c55ReVOdOSbz38z0YUmmq3njYsYV+sHN1XLafmH/LMmf2FSi0qZiyjkWF9muIKfVSuWhNeJUsZQ==",
+  "dgSpecHash": "BvZLTy5Hk8k=",
   "success": true,
-  "projectFilePath": "c:\\Users\\yurie.mori\\Documents\\code\\SOEDAY\\UnitTestPractice\\MyProject.Tests\\MyApp.Tests.csproj",
+  "projectFilePath": "c:\\code\\CopilotDemo\\soeday-work-with-copilot-chat\\MyProject.Tests\\MyApp.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yurie.mori\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\yurie.mori\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",
