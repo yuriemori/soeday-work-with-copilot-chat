@@ -64,6 +64,7 @@ namespace MyProject
             Employee.ToDataTable(employees);
 
         }
+ 
 
         //適切なメアドだったらtrueを返す
         public static bool IsEmailValid(string email)
